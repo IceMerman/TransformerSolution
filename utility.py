@@ -5,8 +5,6 @@ import math as m
 import PyQt4.QtCore as Core
 from PyQt4.QtGui import QLineEdit, QLabel
 
-# Add unnecesary comment
-
 preset = """<html><head/><body><p align={0[align]}><span style=" font-weight:{0[font-weight]}; font-size:{0[size]}pt">raw</span></p></body></html>"""
 
 safe_dict = {'m': math, 'math': math}
