@@ -7,13 +7,13 @@ It's also possible to use functions of the math module. (Ex. image 2)
 ##Screenshots
 
 Normal mode
-![alt tag](http://imgur.com/wY2zScb)
+![alt tag](http://i.imgur.com/wY2zScb.png)
 
 Data from test mode:
-![alt tag](http://imgur.com/y9XI97C)
+![alt tag](http://i.imgur.com/y9XI97C.png)
 
 About
-![alt tag](http://imgur.com/dVGDJAj)
+![alt tag](http://i.imgur.com/dVGDJAj.png)
 
 If you find any bug or have suggestions, please contac me!
 
