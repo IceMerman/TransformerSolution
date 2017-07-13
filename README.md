@@ -19,8 +19,8 @@ If you find any bug or have suggestions, please contac me!
 
 Thanks to:
 Robinson Ortiz
-Alvaro Jaramillo
-Nicolas muñoz
+Álvaro Jaramillo
+Nicolás muñoz
 
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/logoUDEA.png)
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/gimel.png)
