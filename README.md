@@ -1,10 +1,12 @@
+## Transformer Solution
+
 Program to solve the electric circuit of three-phase transformer.
 
 See the images of the program working.
 
 It's also possible to use functions of the math module. (Ex. image 2)
 
-##Screenshots
+**Screenshots**
 
 Normal mode
 ![alt tag](http://i.imgur.com/wY2zScb.png)
@@ -12,7 +14,7 @@ Normal mode
 Data from test mode:
 ![alt tag](http://i.imgur.com/y9XI97C.png)
 
-About
+About:
 ![alt tag](http://i.imgur.com/dVGDJAj.png)
 
 If you find any bug or have suggestions, please contac me!
