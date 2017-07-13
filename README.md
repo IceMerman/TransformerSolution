@@ -14,10 +14,10 @@ Normal mode
 Data from test mode:
 ![alt tag](http://i.imgur.com/y9XI97C.png)
 
-About:
+Abou tab:
 ![alt tag](http://i.imgur.com/dVGDJAj.png)
 
-If you find any bug or have suggestions, please contac me!
+**If you find any bug or have suggestions, please contac me!
 
 Thanks to:
 Robinson Ortiz
