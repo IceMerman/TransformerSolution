@@ -12,6 +12,7 @@ import convertedUI
 import machines
 import utility
 
+# Add unnecesary comment
 
 class ExampleApp(QtGui.QMainWindow, convertedUI.Ui_Form):
     __constants = machines.Constants()
