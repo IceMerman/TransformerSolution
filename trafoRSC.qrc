@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Icon.ico</file>
+    <file>gimel.png</file>
+    <file>logoUDEA.png</file>
+    <file>trafoIMG.png</file>
+  </qresource>
+</RCC>
