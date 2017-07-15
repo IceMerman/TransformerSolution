@@ -1,4 +1,5 @@
 import math
+import utility as u
 
 
 class Transformer(object):
@@ -69,7 +70,7 @@ class Transformer(object):
         self.setZm()
         return self.Zm
 
-    def OpenCircuitTest(self, v: float, i: float, w: float):
+    def OpenCircuitTest(self, v: float, i: float, w: float, transform: bool = False, a: float = 1):
         theta = math.acos(w / (v * i * math.sqrt(1)))
         if theta == 0:
             Xm = 1e1000
@@ -79,14 +80,16 @@ class Transformer(object):
             Rm = 1e1000
         else:
             Rm = v / (i * math.cos(theta))
-        self.Rmtest = Rm
-        self.Xmtest = Xm
+        self.Rmtest = Rm * u.ternary(transform, a**2, 1)
+        self.Xmtest = Xm * u.ternary(transform, a**2, 1)
+        print("OC ternary: ", u.ternary(transform, a**2, 1))
         self.setZmtest()
         return True
 
-    def ShortCircuitTest(self, v: float, i: float, w: float):
+    def ShortCircuitTest(self, v: float, i: float, w: float, transform: bool = False, a: float = 0):
         theta = math.acos(w / (v * i * math.sqrt(1)))
-        Zeqtest = v / i
+        Zeqtest = (v / i) * u.ternary(transform, a**2, 1)
+        print("SC ternary: ", u.ternary(transform, a**2, 1))
         Rserie = Zeqtest * math.cos(theta)
         Xserie = Zeqtest * math.sin(theta)
         self.Zeqserie = Rserie + 1j * Xserie

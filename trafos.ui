@@ -345,7 +345,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_4">
+        <widget class="QRadioButton" name="rbSCprimary">
          <property name="toolTip">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the primary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -444,7 +444,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_3">
+        <widget class="QRadioButton" name="rbOCprimary">
          <property name="toolTip">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the primary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>

@@ -200,8 +200,8 @@ class ExampleApp(QtGui.QMainWindow, convertedUI.Ui_Form):
                 Sc = zsc[0]
 
             else:
-                self.__trafo.ShortCircuitTest(Vsc[0], Isc[0], Wsc[0])
-                self.__trafo.OpenCircuitTest(Voc[0], Ioc[0], Woc[0])
+                self.__trafo.ShortCircuitTest(Vsc[0], Isc[0], Wsc[0], self.rbSCprimary.isChecked(), self.__trafo.An)
+                self.__trafo.OpenCircuitTest(Voc[0], Ioc[0], Woc[0], self.rbOCprimary.isChecked(), self.__trafo.An)
                 if self.pu:
                     Sc = self.__trafo.Zeqserie * self.__constants.getconstantsln('k1', methodsln)
                 else:
@@ -212,7 +212,6 @@ class ExampleApp(QtGui.QMainWindow, convertedUI.Ui_Form):
 
             # 00 Summary of additional calculus
             Zeq = self.__trafo.p_scimpedance * Zbase   # 03
-            print("Zbase: ",Zbase, "SCZ: ", abs(self.__trafo.p_scimpedance), "Ratio: ", abs(self.__trafo.p_scimpedance)/Zbase, abs(Zeq))
             Vload = self.__constants.getconstantsln('k2', methodsln) * self.__load.voltage  # 04
             Sload = self.__constants.getconstantsln('k3', methodsln) * self.__load.power  # 05
             Iload = cm.rect(self.__constants.getconstantsln('k4', methodsln) * Sload / Vload,
