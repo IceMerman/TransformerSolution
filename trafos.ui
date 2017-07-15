@@ -268,10 +268,13 @@
      <property name="geometry">
       <rect>
        <x>1</x>
-       <y>190</y>
+       <y>220</y>
        <width>191</width>
-       <height>191</height>
+       <height>231</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In these fields write the values obtained from the open circuit test, use the radio buttons to specify in which side the test was made.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="title">
       <string>Shortcircuit test</string>
@@ -282,7 +285,7 @@
         <x>10</x>
         <y>20</y>
         <width>171</width>
-        <height>161</height>
+        <height>201</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -328,6 +331,29 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QRadioButton" name="rbSCsecondary">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the secondary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Secondary side</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the primary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Primary side</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -337,8 +363,11 @@
        <x>1</x>
        <y>11</y>
        <width>191</width>
-       <height>181</height>
+       <height>201</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In these fields write the values obtained from the open circuit test, use the radio buttons to specify in which side the test was made.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="title">
       <string>Open circuit test</string>
@@ -349,7 +378,7 @@
         <x>11</x>
         <y>21</y>
         <width>171</width>
-        <height>151</height>
+        <height>171</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -398,6 +427,29 @@
         <widget class="QLineEdit" name="leFELosses">
          <property name="toolTip">
           <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="rbOCsecondary">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the secondary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Secondary side</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if the test was made in the primary side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Primary side</string>
          </property>
         </widget>
        </item>
