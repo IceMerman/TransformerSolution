@@ -130,6 +130,9 @@ class ExampleApp(QtGui.QMainWindow, convertedUI.Ui_Form):
                 self.leSCcurrent.setText("500/(44 * m.sqrt(3))")
                 self.leCUlosses.setText("(500/(44 * m.sqrt(3))) ** 2 * 0.08 * 348.48 * m.cos(m.radians(80))")
 
+                self.rbOCsecondary.setChecked(True)
+                self.rbSCsecondary.setChecked(True)
+
             v1 = utility.validator(self.lnPrimaryV, tag="Rated primary voltage", nonZero=True)
             v2 = utility.validator(self.leSecondaryV, tag="Rated secondary voltage", nonZero=True)
             rpow = utility.validator(self.leRatedPower, tag="Rated power")
