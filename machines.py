@@ -82,14 +82,12 @@ class Transformer(object):
             Rm = v / (i * math.cos(theta))
         self.Rmtest = Rm * u.ternary(transform, a**-2, 1)
         self.Xmtest = Xm * u.ternary(transform, a**-2, 1)
-        print("OC ternary: ", u.ternary(transform, a**-2, 1))
         self.setZmtest()
         return True
 
     def ShortCircuitTest(self, v: float, i: float, w: float, transform: bool = False, a: float = 0):
         theta = math.acos(w / (v * i * math.sqrt(1)))
         Zeqtest = (v / i) * u.ternary(transform, a**-2, 1)
-        print("SC ternary: ", u.ternary(transform, a**-2, 1))
         Rserie = Zeqtest * math.cos(theta)
         Xserie = Zeqtest * math.sin(theta)
         self.Zeqserie = Rserie + 1j * Xserie
