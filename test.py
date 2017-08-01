@@ -2,6 +2,7 @@ import transformer as t
 import math as m
 
 conection="Dy"
+# TODO: this file is old and must be updated!
 
 a = t.Constans(44000, 13200, 500000, 0.013891854213354433+0.07878462024097664j, 13100, 400000, 0.03, 0.02)
 
