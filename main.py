@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#Esto es raro#
+
 import cmath as cm
 import math as m
 from functools import reduce
