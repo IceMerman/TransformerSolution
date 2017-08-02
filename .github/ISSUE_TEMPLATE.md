@@ -4,7 +4,7 @@
 
 ### What happened instead? ###
 
-### Wich versión are you using? ###
+### Wich version are you using? ###
 
 ### Are you using a modificate version? ###
 
