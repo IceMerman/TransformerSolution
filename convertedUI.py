@@ -452,7 +452,7 @@ class Ui_Form(object):
         self.horizontalLayout_2.addLayout(self.verticalLayout_8)
 
         self.retranslateUi(Form)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(Form)
         Form.setTabOrder(self.tabWidget, self.leLoadS)
         Form.setTabOrder(self.leLoadS, self.leLoadV)
