@@ -17,8 +17,11 @@ Data from test mode:
 **If you find any bug or have suggestions, please contac me!**
 
 Thanks to:
+
 Robinson Ortiz
+
 Álvaro Jaramillo
+
 Nicolás muñoz
 
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/logoUDEA.png)
