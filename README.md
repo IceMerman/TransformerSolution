@@ -14,7 +14,7 @@ Normal mode
 Data from test mode:
 ![alt tag](http://i.imgur.com/y9XI97C.png)
 
-**If you find any bug or have suggestions, please contac me!**
+**If you find any bug or have suggestions, please go to the [issues section!]**
 
 Thanks to:
 
@@ -27,3 +27,5 @@ Nicolás muñoz
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/logoUDEA.png)
 
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/gimel.png)
+
+[issues section!]:https://github.com/IceMerman/TransformerSolution/issues
