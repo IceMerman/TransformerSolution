@@ -1,0 +1,9 @@
+
+*.pyc
+.idea/
+build/
+dist/
+Leeme.txt
+purge/
+versiones ejecutable/
+*.spec
